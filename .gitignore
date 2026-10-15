@@ -1,0 +1,16 @@
+# 機密與個資（務必不要上傳）
+.env
+.env.*
+*.local
+secrets.*
+
+# 每月產出的真實資料
+代課費系統備份_*.json
+*印領清冊*.xlsx
+*印領清冊*.docx
+*.xls
+
+# Claude 個人設定
+.claude/
+settings.local.json
+CLAUDE.local.md
